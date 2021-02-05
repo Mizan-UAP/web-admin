@@ -1,0 +1,151 @@
+.buttonContent{
+    height: 40px;
+    width: 100px;
+    /* background-color: #5dd32f; */
+    text-align: center;
+    align-items: center;
+    margin: .6rem; 
+    position: absolute;
+}
+
+.buttonContent a{
+    position: relative;
+    top: .5rem; 
+}
+.buttonBody{
+    display: block;
+    height: 60px;
+    width: 130px;
+    cursor: pointer;
+    /* background-color: aqua; */
+    align-items: center;
+    position: relative;
+    transition: all 0.6s ease-out;
+    margin-right: 1rem;
+}
+.buttonBody:hover{
+    /* border: 1px solid #000; */
+    border-radius: 0 1rem 0 1rem;
+    background-color: orange;
+}
+
+.buttonItems{
+    padding: 1rem;    
+    /* background-color: pink; */
+    display: flex;
+}
+
+.buttonBodyItem{
+    display: block;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #808080a6;
+}
+
+.logo{
+    height: auto;
+    width: 30%;
+    /* background-color:azure; */
+}
+.logoBody{
+    height: auto;
+    width: 50%;
+    /* background-color: red;  */
+    align-items: center;
+    position: relative;
+    left: 20%;
+    
+}
+.logoBody:hover{
+    transform: rotate(20deg);
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+#hamburger{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .content{
+        /* display: grid; */
+        padding: 0;
+
+    }
+    .buttonBodyItem{
+        display: none;
+    }
+
+    .logo{
+        height: auto;
+        width: 80%;
+        background-color: red;
+        margin: auto;
+    }
+
+    #hamburger{
+        display: block;
+        position: absolute;
+    }
+    #ham{
+        display: block;
+        height: auto;
+        width: 12%;
+        position: relative;
+        right: -80%;
+        top: 1.8rem;
+        z-index: 100;
+        cursor: pointer;
+    }
+    #hamMenu{
+        position: relative;
+        z-index: 99;
+        display: none;
+        margin: auto;
+    }
+     .backdrop{
+        display: none;
+        backdrop-filter: blur(5px);
+        height: 100vh;
+        width: 100vw;
+        cursor: pointer;
+        z-index: 98;
+        position: absolute;
+        top: 88px;
+        /* background-color: #e2ab3644; */
+    } 
+
+
+    .buttonItems{
+        padding: 1rem;    
+        background-color: #87cfebbe;
+        display: grid;
+        justify-content: center;
+        height: auto;
+        width: 130px;
+        margin: auto;
+        position: relative;
+        right: -22%;
+        top: 4rem;
+    }
+    .buttonBody{
+        display: block;
+        height: 60px;
+        width: 130px;        
+        /* background-color: aqua; */
+        align-items: center;
+        position: relative;
+        transition: all 0.6s ease-out;
+        margin-right: 0rem;
+        margin: auto;
+    }
+   
+
+
+
+}

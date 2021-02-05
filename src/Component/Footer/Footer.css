@@ -1,0 +1,28 @@
+.FooterBody{
+    background-color: #7f8080;
+    color: #FFFFFF;
+    padding: 1.5rem;
+}
+.FooterUpper{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.FooterLeft{
+    height: auto;
+    width: 30%;
+}
+.FooterRight{
+    height: auto;
+    width: 70%;
+}
+.footerCopyRight{
+    padding: 1rem;
+    color: goldenrod;
+    transition: all .8s linear;
+}
+.footerCopyRight:hover{
+  
+    color: #000000;
+    
+}

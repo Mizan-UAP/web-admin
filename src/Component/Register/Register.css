@@ -1,0 +1,67 @@
+.registerForm{
+    position: relative;
+    align-items: center;
+}
+.form{
+    height: auto;
+    width: 500px;
+    padding: 2rem;  
+    margin: auto;
+}
+form{
+    display: grid;
+    justify-content: center;
+    text-align: left;
+    padding: 2rem;    
+    border: 2px solid #000;
+    border-radius: 20px 0 20px 0;
+
+}
+input{
+    height: 25px;
+    width: 300px;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+
+}
+/* .name{
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+} */
+label{
+    font-weight: bold;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    padding-left: .5rem;
+    font-style: italic;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    padding-left: .5rem;
+    font-style: italic;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    padding-left: .5rem;
+    font-style: italic;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    padding-left: .5rem;
+    font-style: italic;
+  }
+.google{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid gray;
+    border-radius: 25px;
+    background-color: #87cfeb;
+    height: auto;
+    padding: .5rem;
+    width: 200px;
+    margin: auto;
+
+}
+  .google img{
+      height: 30px;
+      width: 30px;
+  }
