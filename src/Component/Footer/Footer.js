@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css'
+import Map from './Map';
 const Footer = () => {
     return (
         <div className="FooterBody">
@@ -15,9 +16,11 @@ const Footer = () => {
                         Address <br />
                     </div>
                     <div className="FooterRight">
-                        <h4>Others</h4>
+                        {/* <h4>Others</h4>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi repellendus sit error id incidunt eum earum expedita aut eaque similique adipisci consectetur, asperiores ab nisi perspiciatis reprehenderit maxime velit temporibus.
-                        Veritatis beatae consequatur provident, consectetur recusandae illum possimus iusto magni deserunt aperiam, tenetur voluptatum ut consequuntur excepturi totam asperiores aliquam sed odio? Quae modi veniam culpa, officia suscipit praesentium aliquid!
+                        Veritatis beatae consequatur provident, consectetur recusandae illum possimus iusto magni deserunt aperiam, tenetur voluptatum ut consequuntur excepturi totam asperiores aliquam sed odio? Quae modi veniam culpa, officia suscipit praesentium aliquid! */}
+
+                        <Map/>
 
                     </div>
                 </div>

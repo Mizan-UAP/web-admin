@@ -15,6 +15,7 @@
 .FooterRight{
     height: auto;
     width: 70%;
+    /* margin-left: 150px; */
 }
 .footerCopyRight{
     padding: 1rem;
